@@ -294,11 +294,6 @@
 
 ### 4.4 负向后行断言
 
-Negative lookbehind is used to get all the matches that are not preceded by a specific pattern. Negative lookbehind is denoted by 
-`(?<!...)`. For example the regular expression `(?&lt;!(T|t)he\s)(cat)` means: get all `cat` words from input string that 
-are after not after the word `The` or `the`.
-<br />
-
 负向后行断言是用于获取不在特定模式之前的所有匹配的内容。负向后行断言表示为 `(?<!...)`。例如正则表达式 `(?<!(T|t)he\s)(cat)`，表示: 在输入字符中获取所有不在 `The` 或 `the` 之后的所有单词 `cat`。
 
 <pre>
