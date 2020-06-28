@@ -18,7 +18,7 @@
 <img src="https://i.imgur.com/UrDb9qc.png" alt="Regular expression">
 </p>
 
-上面这个正则表达式可以匹配 `john_doe`，`jo-hn\_doe` 和 `john12\_as`。但是它不能匹配 `Jo`，因为该字符串里面包含了大写字符，并且它太短了。
+上面这个正则表达式可以匹配 `john_doe`，`jo-hn_doe` 和 `john12_as`。但是它不能匹配 `Jo`，因为该字符串里面包含了大写字符，并且它太短了。
 
 ## 目录
 
